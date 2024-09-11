@@ -5,4 +5,4 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = np.genfromtxt("data.txt")
-print(data)
+plt.plot(data)
